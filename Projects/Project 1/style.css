@@ -1,0 +1,196 @@
+
+/*Body*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #101010;
+}
+
+/*Logo*/
+.banner{
+    color: white;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+span{
+    color: green;
+}
+
+/*Navigation*/
+.navbar{
+    height: 480px;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 10px 10px 5px 10px;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 0px 40px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: green;
+    transition: 0.4s;
+}
+
+/*About Me*/
+.intro{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.intro h2{
+    color: white;
+    font-size: 50px;
+}
+.intro h3{
+    color: white;
+    font-size: 25px;
+}
+.intro h4{
+    color: lime;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.about li{
+    color: white;
+    list-style-position: inside;
+}
+
+/* Hobbies */
+.row1{
+	float: left;
+	width: 50%;
+}
+.title h2{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+h5{
+	color: white;
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+.box1{
+    width: 100%-10px;
+    height: 185px;
+    margin: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background: #191919;
+}
+.box1 ul li{
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0px 20px;
+    text-align: center;
+}
+.box2{
+    width: 100%-10px;
+    height: 185px;
+    background: #191919;
+    margin: 5px 10px 5px 5px;
+    border-radius: 10px;
+}
+.box2 ul li{
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+/* Skills */
+.row2{
+	float: left;
+	width: 100%;
+}
+.box3{
+    width: 100%-10px;
+    height: 80px;
+    margin: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background: #191919;
+}
+.skill_text h3{
+    margin-left: 32px;
+    text-align: center;
+    color: 	#F5F5F5;
+}
+
+/*Projects*/
+.row3{
+    float: left;
+    width: 100%;
+}
+.box4{
+    width: 100%-10px;
+    height: 400px;
+    margin: 5px 10px 5px 10px;
+    background: #191919;
+    border-radius: 10px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.photo{
+    width: 30%;
+    margin: 20px;
+    border: 5px sold none;
+    border-radius: 10px;
+    align-content: center;
+}
+
+/*Social*/
+.row4{
+    float: left;
+    width: 100%;
+}
+.box5{
+    width: 100%-20px;
+    height: 135px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 10px;
+    background: #191919;
+}
+.connect{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.link a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+.logo{
+    width: 40px;
+}
+#right{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
